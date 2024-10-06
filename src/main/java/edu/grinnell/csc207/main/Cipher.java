@@ -8,6 +8,10 @@ import edu.grinnell.csc207.util.CipherUtils;
 /**
  *  This class is the main method for the cipher system, taking in command line
  * arguments and performing operations to get the desired output.
+ * 
+ * @Author Mitch Paiva
+ * CS207 Fall
+ * 
  */
 public class Cipher {
   /**
@@ -30,26 +34,20 @@ public class Cipher {
     String ciphertype = null;
     String message = null;
     String key = null;
-    boolean afound = false;
-    boolean cfound = false;
     int numberofargs = 0;
     for (String arg : args) {
       if (arg.startsWith("-")) {
         if (arg.equals("-encode")) {
           action = "encode";
-          afound = true;
           numberofargs += 1;
         } else if (arg.equals("-decode")) {
           action = "decode";
-          afound = true;
           numberofargs += 1;
         } else if (arg.equals("-caesar")) {
           ciphertype = "caesar";
-          cfound = true;
           numberofargs += 1;
         } else if (arg.equals("-vigenere")) {
           ciphertype = "vigenere";
-          cfound = true;
           numberofargs += 1;
         } else if (arg.startsWith("-")) {
           System.err.println("Error: No valid action specified."
