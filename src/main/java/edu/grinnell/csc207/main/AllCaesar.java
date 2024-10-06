@@ -7,8 +7,8 @@ import edu.grinnell.csc207.util.CipherUtils;
 /**
  *  This class drives the AllCaesar program, which encrypts/decrypts using
  * the Caesar cypher.
- * 
- * @Author Mitch Paiva
+ *
+ * @author Mitch Paiva
  * CS207 Fall
  */
 public class AllCaesar {

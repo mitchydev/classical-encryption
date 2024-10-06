@@ -8,10 +8,10 @@ import edu.grinnell.csc207.util.CipherUtils;
 /**
  *  This class is the main method for the cipher system, taking in command line
  * arguments and performing operations to get the desired output.
- * 
- * @Author Mitch Paiva
+ *
+ * @author Mitch Paiva
  * CS207 Fall
- * 
+ *
  */
 public class Cipher {
   /**

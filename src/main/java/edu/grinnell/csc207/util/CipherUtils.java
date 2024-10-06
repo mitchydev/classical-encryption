@@ -1,10 +1,11 @@
 package edu.grinnell.csc207.util;
+
 /**
  * Utility class for encryption/decryption of Caesar/Vigenere cipher.
- * 
- * @Author Mitch Paiva
+ *
+ * @author Mitch Paiva
  * CS207 Fall
- * 
+ *
  */
 public class CipherUtils {
   /**
